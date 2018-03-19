@@ -1,0 +1,21 @@
+{
+    "name": "maks757/yii2-seo-redirect",
+    "description": "Seo redirect",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","seo","redirect"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Max",
+            "email": "maks757q@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "maks757\\seoredirect\\": ""
+        }
+    }
+}
