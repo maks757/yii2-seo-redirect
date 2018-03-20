@@ -28,7 +28,7 @@ class SeoRedirectComponent extends Behavior
     }
 
     protected static function chackUrl(){
-        $redirect = RedirectTools::findOne(['from' => \Yii::$app->getRequest()->getAbsoluteUrl()]);
+        $redirect = RedirectTools::findOne(['from' => \Yii::$app->getRequest()->getUrl()]);
         if(!empty($redirect)) {
             \Yii::$app->getResponse()->redirect($redirect->to, $redirect->code)->send();
         }
