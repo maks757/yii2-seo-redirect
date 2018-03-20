@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'to')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'code')->dropDownList(RedirectTools::CODES) ?>
+    <?= $form->field($model, 'code')->dropDownList(RedirectTools::$CODES) ?>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>
