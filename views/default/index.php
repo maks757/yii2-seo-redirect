@@ -7,7 +7,7 @@ use yii\widgets\Pjax;
 /* @var $searchModel maks757\seoredirect\components\DefaultSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Redirect Tools');
+$this->title = Yii::t('app', 'Redirect');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="redirect-tools-index">
