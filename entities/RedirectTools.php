@@ -15,7 +15,7 @@ use Yii;
 class RedirectTools extends \yii\db\ActiveRecord
 {
 
-    public const CODES = [
+    public static $CODES = [
         '301' => '301 Moved Permanently',
         '302' => '302 Moved Temporarily',
     ];
