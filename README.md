@@ -17,9 +17,9 @@
     'components' => [
         //...
     ],
-    'on beforeAction' => function (){
-        \maks757\seoredirect\components\SeoRedirectComponent::chackUrl();
-    },
+    'as seoRedirect' => [
+        'class' => 'maks757\seoredirect\components\SeoRedirectComponent',
+    ],
 ```
 
 #### routes
